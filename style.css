@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.header, .hero-section-container {
+    background-color: #1F2937;
+}
+
+/* Header Section */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.header-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* Hero Section */
