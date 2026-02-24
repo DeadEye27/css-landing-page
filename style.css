@@ -3,18 +3,26 @@ body {
     margin: 0;
 }
 
+.header, 
+.hero-section-container, 
+.information-section,
+.quote-section,
+.call-section,
+.footer {
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 .header, .hero-section-container {
     background-color: #1F2937;
 }
 
 /* Header Section */
-
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
 }
 
 .header-logo {
@@ -39,3 +47,48 @@ a {
 }
 
 /* Hero Section */
+.hero-section-container {
+    padding-top: 36px;
+    padding-bottom: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.hero-container {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    flex-flow: column;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 8px;
+    max-width: 80px;
+}
+
+.hero-image-placeholder {
+    width: 500px;
+    height: 220px;
+    background-color: gray;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
